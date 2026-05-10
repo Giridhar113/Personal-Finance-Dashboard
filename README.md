@@ -44,23 +44,6 @@ Open `index.html` directly in a browser.
 
 No build step or package install is required.
 
-## GitHub Pages
-
-This repo includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
-
-After pushing to GitHub:
-
-1. Open the repository on GitHub.
-2. Go to `Settings` -> `Pages`.
-3. Under `Build and deployment`, choose `GitHub Actions`.
-4. Push to the `main` branch.
-5. Open the completed `Deploy static site to GitHub Pages` action to find the live URL.
-
-The live link usually looks like:
-
-```text
-https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/
-```
 
 ## Files
 
