@@ -95,33 +95,4 @@ Use these settings on Vercel:
 
 Important: make sure `index.html`, `styles.css`, `app.js`, and `package.json` are committed to the repository root. Release assets are not used for deployment.
 
-## GitHub Pages
-
-This repo includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
-
-After pushing to GitHub:
-
-1. Open the repository on GitHub.
-2. Go to `Settings` -> `Pages`.
-3. Under `Build and deployment`, choose `GitHub Actions`.
-4. Push to the `main` branch.
-5. Open the completed `Deploy static site to GitHub Pages` action to find the live URL.
-
-The live link usually looks like:
-
-```text
-https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/
-```
-
-## Files
-
-- `index.html` - app markup, dashboard sections, API connected card, and modal structure
-- `styles.css` - layout, animations, responsive design, chart polish, and black theme
-- `app.js` - auth/session logic, transaction CRUD, backend fetch calls, chart rendering, dropdown behavior, and UI interactions
-- `local-server.cjs` - static local server plus `GET`, `POST`, and `DELETE` transaction APIs
-- `.github/workflows/pages.yml` - GitHub Pages deployment workflow
-- `.nojekyll` - serves static files without Jekyll processing
-
-## Notes
-
 The app stores demo login/session data in `localStorage`. Generated screenshot files are ignored by Git.
